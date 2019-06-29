@@ -3,8 +3,13 @@
 	"displayName": "Ping My File",
 	"description": "This plugin allows you to ping all hosts specified in a file. It works on multiple files and supports continous ping.",
 	"version": "0.0.1",
-	"publisher":"adst",
-	"keywords":[
+	"icon": "img/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ad-st/ping-my-file.git"
+	},
+	"publisher": "adst",
+	"keywords": [
 		"ping",
 		"file",
 		"host",
@@ -23,26 +28,23 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"configuration":[
-			{
-				"title": "Ping my file configuration",
-				"type": "object",
-				"properties": {
-					"pingmyfile.pausebetweenpings":{
-						"type":"integer",
-						"default": 2000,
-						"description": "Specifies how long in miliseconds we should wait with ping restart after whole file is competed."
-					},
-					"pingmyfile.delayafteredit":{
-						"type":"integer",
-						"default": 2000,
-						"description": "Specifies how long in miliseconds we should wait with ping restart after file was edited."
-					}
+		"configuration": [{
+			"title": "Ping my file configuration",
+			"type": "object",
+			"properties": {
+				"pingmyfile.pausebetweenpings": {
+					"type": "integer",
+					"default": 2000,
+					"description": "Specifies how long in miliseconds we should wait with ping restart after whole file is competed."
+				},
+				"pingmyfile.delayafteredit": {
+					"type": "integer",
+					"default": 2000,
+					"description": "Specifies how long in miliseconds we should wait with ping restart after file was edited."
 				}
 			}
-		],
-		"commands": [
-			{
+		}],
+		"commands": [{
 				"command": "ping-my-file.start",
 				"title": "Ping My File: Start ping on this file"
 			},
@@ -55,8 +57,7 @@
 				"title": "Ping My File: Ping this file once"
 			}
 		],
-		"colors": [
-			{
+		"colors": [{
 				"id": "pingmyfile.inactive",
 				"description": "Background color for inactive host",
 				"defaults": {
