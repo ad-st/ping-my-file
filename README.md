@@ -7,13 +7,20 @@ This extension adds the abbility to ping all hosts listed in a file. You can dec
 ## Features
 
 * supports continous mode:
-![alt](img/continous.gif)
+
+    ![alt](img/continous.gif)
+
 * unresponsive hosts are reported in problems so you can easily navigate to them:
-![alt](img/problems.gif)
+
+    ![alt](img/problems.gif)
+
 * you can edit file while ping is in continous mode - scan will be paused for specified amount of time (2 sec by default):
-![alt](img/pause.gif)
+
+    ![alt](img/pause.gif)
+
 * once continous ping is started you can close it's file - scan will go on and you will be notified of unresponsive hosts in "problems":
-![alt](img/multiple.gif)
+
+    ![alt](img/multiple.gif)
 
 ## Commands
 
