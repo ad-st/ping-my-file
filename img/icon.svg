@@ -1,0 +1,29 @@
+<svg width="166.37" height="168.46999999999997" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>PingMyFile</title>
+ <defs>
+  <linearGradient id="linearGradient5057" y2="0.775007" y1="0.089268" x2="0.5" x1="0.464302">
+   <stop id="stop3954-9" stop-color="#0146a8" offset="0"/>
+   <stop id="stop3956-9" stop-color="#0146a8" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4009" x1="0.473505" x2="0.50022" y1="0.057918" y2="1.219868">
+   <stop id="stop3919-20" stop-color="#edf4fd" stop-opacity="0.52846" offset="0"/>
+   <stop id="stop3921-8" stop-color="#175bb3" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>image/svg+xmlOpenclipartnetwork-blue2010-08-04T13:04:34Single web 2.0  icons from my set. check the whole set in my clip art if you want get all of it together.http://openclipart.org/detail/77371/network-blue-by-shokuninshokuninarrowchatclip artclipartcommunicatorcomputerdesktopearthemail.mailglobeiconiconsinformationinterfacelockmessengermobilenetworkpcphonesecuresetshopping cartunlockweb 2.0website</metadata>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="path5051" fill="#103683" d="m166.37367,84.23923c0,46.52152 -37.24383,84.23615 -83.18799,84.23615c-45.94264,0 -83.18798,-37.71309 -83.18798,-84.23615c0,-46.52152 37.24382,-84.23616 83.18798,-84.23616c45.94265,0 83.18799,37.7131 83.18799,84.23616z"/>
+  <path id="path5053" fill="url(#linearGradient5057)" d="m161.02669,85.28743c0,44.63007 -34.84942,80.81131 -77.83983,80.81131c-42.98899,0 -77.83983,-36.17977 -77.83983,-80.81131c0,-44.63006 34.84942,-80.8113 77.83983,-80.8113c42.98899,0 77.83983,36.17976 77.83983,80.8113z"/>
+  <path id="path5055" fill="url(#linearGradient4009)" d="m83.15534,4.46954c-42.98893,0 -77.84793,36.20084 -77.84793,80.82895c0,2.84631 0.15011,5.6446 0.42667,8.41514c37.97732,14.20423 96.01472,24.55285 155.2635,-8.03587c0.00054,-0.12664 0,-0.25249 0,-0.37927c0,-44.62963 -34.85521,-80.82895 -77.84034,-80.82895l-0.0019,0z"/>
+  <g id="svg_3"/>
+  <text transform="matrix(1.7056016033796764,0,0,1.7902096073698885,-51.665701867402255,-18.34885128382127) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="42.610043" x="80.224355" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">PING</text>
+  <rect id="svg_7" height="1.687499" width="97.558585" y="61.346406" x="34.669373" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#ff0000"/>
+  <text transform="matrix(1.0876007575578936,0,0,1.1884735300288864,-1.1718501246557054,-5.451586882680999) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_12" y="82.784535" x="79.015999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">MY</text>
+  <text transform="matrix(1.6244218349456787,0,0,1.737661600112915,-25.454946365207434,-77.37378627434373) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_13" y="123.871388" x="66.878193" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">FILE</text>
+ </g>
+</svg>

@@ -1,0 +1,102 @@
+{
+	"name": "ping-my-file",
+	"displayName": "Ping My File",
+	"description": "This plugin allows you to ping all hosts specified in a file. It works on multiple files and supports continous ping.",
+	"version": "0.0.1",
+	"publisher":"adst",
+	"keywords":[
+		"ping",
+		"file",
+		"host",
+		"connection"
+	],
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:ping-my-file.start",
+		"onCommand:ping-my-file.stop",
+		"onCommand:ping-my-file.ping"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"configuration":[
+			{
+				"title": "Ping my file configuration",
+				"type": "object",
+				"properties": {
+					"pingmyfile.pausebetweenpings":{
+						"type":"integer",
+						"default": 2000,
+						"description": "Specifies how long in miliseconds we should wait with ping restart after whole file is competed."
+					},
+					"pingmyfile.delayafteredit":{
+						"type":"integer",
+						"default": 2000,
+						"description": "Specifies how long in miliseconds we should wait with ping restart after file was edited."
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "ping-my-file.start",
+				"title": "Ping My File: Start ping on this file"
+			},
+			{
+				"command": "ping-my-file.stop",
+				"title": "Ping My File: Stop ping on this file"
+			},
+			{
+				"command": "ping-my-file.ping",
+				"title": "Ping My File: Ping this file once"
+			}
+		],
+		"colors": [
+			{
+				"id": "pingmyfile.inactive",
+				"description": "Background color for inactive host",
+				"defaults": {
+					"dark": "#FF000055",
+					"light": "#FF000055",
+					"highContrast": "#FF000055"
+				}
+			},
+			{
+				"id": "pingmyfile.active",
+				"description": "Background color for active host",
+				"defaults": {
+					"dark": "#00FF0055",
+					"light": "#00FF0055",
+					"highContrast": "#00FF0055"
+				}
+			},
+			{
+				"id": "pingmyfile.activeComment",
+				"description": "Background color for active host",
+				"defaults": {
+					"dark": "#00FF00FF",
+					"light": "#00FF00FF",
+					"highContrast": "#00FF00FF"
+				}
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"ping": "^0.2.2"
+	}
+}
