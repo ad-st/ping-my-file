@@ -2,7 +2,7 @@
 	"name": "ping-my-file",
 	"displayName": "Ping My File",
 	"description": "This plugin allows you to ping all hosts specified in a file. It works on multiple files and supports continous ping.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"icon": "img/icon.png",
 	"repository": {
 		"type": "git",
